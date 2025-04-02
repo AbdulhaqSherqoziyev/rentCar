@@ -36,3 +36,18 @@ export interface ILogin {
 export type Payload = {
   id: number;
 };
+
+export interface Iorder {
+  id: number;
+  user_id: number;
+  status: string;
+}
+
+
+export interface Iproduct {
+  id: number;
+  name: string;
+  merchant_id: number;
+  price: number;
+  status: string;
+}

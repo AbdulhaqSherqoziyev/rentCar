@@ -4,6 +4,7 @@ import express, {
   type NextFunction,
 } from "express";
 import { setUpDB } from "../services";
+import { ZodRecord } from "zod";
 
 const router = express.Router();
 
